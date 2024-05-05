@@ -71,7 +71,7 @@ class TestFileStorageDocs(unittest.TestCase):
 
 @unittest.skipIf(storage_type == 'db', 'skip if environ is db')
 class TestBmFsInstances(unittest.TestCase):
-    """testing for class instances"""
+    """testing for class instances """
 
     @classmethod
     def setUpClass(cls):
